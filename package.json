@@ -1,0 +1,22 @@
+{
+  "name": "devext",
+  "version": "1.0.0",
+  "description": "add dev commands to electrongui ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gherardovarando/DevExt.git"
+  },
+  "keywords": [
+    "electrongui"
+  ],
+  "author": "gherardo varando <gherardo.varando@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gherardovarando/DevExt/issues"
+  },
+  "homepage": "https://github.com/gherardovarando/DevExt#readme"
+}
