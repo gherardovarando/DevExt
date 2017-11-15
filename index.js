@@ -11,7 +11,7 @@ class DevExt extends GuiExtension {
       icon: 'fa fa-bars',
       // alternatively image: 'path-to-image',
       //setting a manuLabel and a menuTemplate
-      menuLabel: 'MyExtension',
+      menuLabel: 'Dev',
       menuTemplate: [{
         label: 'toggleDevTools',
         click(item, focusedWindow) {
@@ -24,8 +24,6 @@ class DevExt extends GuiExtension {
   activate() {
     super.activate() //always call super methods
     this.appendMenu()
-
-    this.gui.alerts.add('DevExt activated', 'default')
   }
 
   deactivate() {
