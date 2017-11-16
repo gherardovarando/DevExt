@@ -11,7 +11,9 @@
     "url": "git+https://github.com/gherardovarando/DevExt.git"
   },
   "keywords": [
-    "electrongui"
+    "electrongui",
+    "guiextension",
+    "devtools"
   ],
   "author": "gherardo varando <gherardo.varando@gmail.com>",
   "license": "MIT",

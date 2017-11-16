@@ -13,7 +13,7 @@ class DevExt extends GuiExtension {
       //setting a manuLabel and a menuTemplate
       menuLabel: 'Dev',
       menuTemplate: [{
-        label: 'toggleDevTools',
+        label: 'DevTools',
         click(item, focusedWindow) {
           if (focusedWindow) focusedWindow.webContents.toggleDevTools()
         }
